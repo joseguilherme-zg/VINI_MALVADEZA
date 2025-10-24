@@ -7,6 +7,6 @@
 
 body {
     text-align: center;
-    background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(0, 82, 159));
+    background: linear-gradient(to bottom, rgb(20, 82, 159),rgb(255, 255, 255));
     min-height: 100vh;
 }
