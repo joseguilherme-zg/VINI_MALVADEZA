@@ -22,8 +22,9 @@ body {
     min-height: 100vh;
 }
 
-body img{
-    left: 150px;
+.ap{
+    position: absolute;
+    left: 20%;
 }
 
 div {
