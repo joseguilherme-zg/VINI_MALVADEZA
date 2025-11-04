@@ -16,9 +16,9 @@ header {
 header h1 {
     color: white;
     font-size: 60px; /* maior e mais próximo do da imagem */
-    font-weight: 900; /* bem grosso */
+    font-weight: 900px; /* bem grosso */
     margin: 0; /* remove espaçamento padrão */
-    letter-spacing: 3px; /* espaço entre letras */
+    letter-spacing: 6px; /* espaço entre letras */
 }
 
 header img {
