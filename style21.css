@@ -5,14 +5,22 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-header img{
-    height: 215px;
-    width: 215px;
-    align-items: middle;
-    display: inline-block;
+header{
+    background-color: black;
 }
 
 h1{
+    position: absolute;
+    color: white;
+    top: 10px;
+
+}
+
+header img{
+    height: 190px;
+    width: 190px;
+    align-items: middle;
+    display: inline-block;
 
 }
 
