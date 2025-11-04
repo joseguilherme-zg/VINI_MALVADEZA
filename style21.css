@@ -6,11 +6,14 @@
 }
 
 header img{
-
+    height: 215px;
+    width: 215px;
+    align-items: middle;
+    display: inline-block;
 }
 
 h1{
-    
+
 }
 
 body {
