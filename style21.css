@@ -12,12 +12,13 @@ header{
 
 header h1{
     color: white;
-
+    text-align: center;
 }
 
 header img{
     height: 90px;
-    width: 150px;
+    width: 90px;
+    margin: 5px;
 }
 
 body {
