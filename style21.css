@@ -25,4 +25,5 @@ body {
 div {
     background-color: black;
     color: white;
+    border-radius: 100px;
 }
