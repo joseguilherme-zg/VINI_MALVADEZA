@@ -5,42 +5,100 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-header {
-    background-color: black;
-    display: flex;
-    align-items: center; /* centraliza verticalmente */
-    justify-content: center; /* centraliza horizontalmente */
-    padding: 10px 0; /* dá respiro acima e abaixo */
-}
-
-header h1 {
-    color: white;
-    font-size: 60px; /* maior e mais próximo do da imagem */
-    font-weight: 900px; /* bem grosso */
-    margin: 0; /* remove espaçamento padrão */
-    letter-spacing: 6px; /* espaço entre letras */
-}
-
-header img {
-    height: 80px;
-    width: auto; /* mantém proporção */
-    margin-right: 20px; /* separa da palavra VINÍCIUS */
-}
-
-
 body {
     text-align: center;
     background: linear-gradient(to bottom, rgb(20, 82, 159),rgb(255, 255, 255));
     min-height: 100vh;
 }
 
-.ap{
-    position: absolute;
-    left: 20%;
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-div {
-    background-color: black;
+
+.header-center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left {
+    justify-content: flex-start;
+}
+
+
+header img {
+    height: 80px;
+}
+
+header h1 {
     color: white;
-    border-radius: 100px;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: 1em;
+    text-align: center;
+}
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex: 1,1,100vw;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+main .conteiner{
+    margin-bottom: 400px;
+    /* flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* main img {
+    justify-content: flex-start;
+
+} */
+
+
+main .conteiner_items{
+    margin-top: 30px;
+    border-radius: 200px;
+    padding: 20px;
+    background-color: black;
+    
+}
+
+main div .conteiner_items a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:960px){
+    header h1 {
+        letter-spacing: 5px;
+    }
+    main img {
+        width: 300px;
+        height: calc(100vh - 200px);
+        object-fit: cover;
+    }
+    main .conteiner_items{
+    padding: 10px;
+
+}
+    
 }
