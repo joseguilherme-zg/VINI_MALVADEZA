@@ -108,12 +108,12 @@ section .historia {
     padding: 10px;
     border-radius: 25px;
         width: 600px;
-        height: 260px;
+        height: 360px;
 }
 
 section .historia  p {
    color: white;
-   font-size: 25px;
+   font-size: 22px;
 }
 
 @media only screen and (max-width:980px){
