@@ -117,6 +117,14 @@ section .historia  p {
    font-size: 22px;
 }
 
+footer{
+    background-color: black;
+}
+
+footer p{
+    color: white
+}
+
 @media only screen and (max-width:980px){
     header h1 {
         letter-spacing: 5px;
