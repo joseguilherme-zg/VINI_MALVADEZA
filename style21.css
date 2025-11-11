@@ -104,6 +104,7 @@ section {
 
 section p {
     background-color: black;
+    padding: 5px;
 }
 
 @media only screen and (max-width:980px){
