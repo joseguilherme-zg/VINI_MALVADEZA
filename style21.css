@@ -107,6 +107,10 @@ section .historia {
     padding: 5px;
 }
 
+section .historia  p {
+   color: white;
+}
+
 @media only screen and (max-width:980px){
     header h1 {
         letter-spacing: 5px;
