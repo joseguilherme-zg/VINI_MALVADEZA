@@ -84,6 +84,7 @@ main .conteiner_items{
 main div .conteiner_items a {
     color: white;
     text-decoration: none;
+    font-size: 50px;
 }
 
 .vini2{
@@ -91,7 +92,7 @@ main div .conteiner_items a {
     width: 340px;
 }
 
-@media only screen and (max-width:1500px){
+@media only screen and (max-width:980px){
     header h1 {
         letter-spacing: 5px;
     }
