@@ -101,6 +101,7 @@ main div .conteiner_items a {
 section {
     margin-top: 100px;
     display: flex;
+    gap: 10px;
 }
 
 section .historia {
