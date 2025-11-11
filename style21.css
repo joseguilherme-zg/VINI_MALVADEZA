@@ -106,9 +106,9 @@ section {
 section .historia {
     background-color: black;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 25px;
         width: 600px;
-        height: 240px;
+        height: 260px;
 }
 
 section .historia  p {
