@@ -107,11 +107,11 @@ section .historia {
     background-color: black;
     padding: 10px;
     border-radius: 2px;
-
+        width: 600px;
+        height: 100px;
 }
 
 section .historia  p {
-    width: 600px;
    color: white;
 }
 
