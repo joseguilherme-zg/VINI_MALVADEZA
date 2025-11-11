@@ -103,8 +103,9 @@ section {
 }
 
 section .historia {
-    background-color: black;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 2px;
+
 }
 
 section .historia  p {
