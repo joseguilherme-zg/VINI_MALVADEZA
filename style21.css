@@ -98,6 +98,14 @@ main div .conteiner_items a {
     width: 340px;
 }
 
+section {
+    display: flex;
+}
+
+section p {
+    background-color: black;
+}
+
 @media only screen and (max-width:980px){
     header h1 {
         letter-spacing: 5px;
