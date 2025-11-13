@@ -144,6 +144,9 @@ section .racism  p {
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     height: 100px;
 }
