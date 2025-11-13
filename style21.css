@@ -125,6 +125,24 @@ section .historia  p {
    font-size: 22px;
 }
 
+section .racism {
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+        width: 600px;
+        height: 480px;
+}
+
+section .racism  p {
+   color: white;
+   font-size: 22px;
+}
+
+.vini3{
+    height: 600px;
+    width: 680px;
+}
+
 footer{
     background-color: black;
 }
