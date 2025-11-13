@@ -87,7 +87,13 @@ main .conteiner_items{
     
 }
 
-main div .conteiner_items a {
+main div .conteiner_items .a1 {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+main div .conteiner_items .a2 {
     color: white;
     text-decoration: none;
     font-size: 50px;
