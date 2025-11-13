@@ -87,17 +87,12 @@ main .conteiner_items{
     
 }
 
-main div .conteiner_items .a1 {
+main div .conteiner_items a {
     color: white;
     text-decoration: none;
     font-size: 50px;
 }
 
-main div .conteiner_items .a2 {
-    color: white;
-    text-decoration: none;
-    font-size: 50px;
-}
 
 .apresentacao{
       font-family: "Jersey 25", sans-serif;
